@@ -1,0 +1,9 @@
+.target-theme {
+font-size: 30px;
+}
+.main-theme {
+  display: flex;
+  justify-content: space-between;
+  padding:30px;
+}
+
