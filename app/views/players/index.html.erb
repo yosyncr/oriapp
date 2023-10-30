@@ -1,0 +1,11 @@
+<header class="header">
+<h1 class="ikusei-title">育成リスト</h1>
+</header>
+<div class="player-list">
+  <% @players.each do |player| %>
+ <div class="player_post" >
+      <p><%= player.name %></p>
+    </div>
+  <% end %>
+  <P><%= link_to "追加する", new_player_path, class: "sinki-player" %></p>
+</div>
