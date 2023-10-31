@@ -7,5 +7,7 @@
       <p><%= player.name %></p>
     </div>
   <% end %>
-  <P><%= link_to "追加する", new_player_path, class: "sinki-player" %></p>
+  <%= link_to("/players/new ")do %>
+    <%= image_tag 'arrow_top.png' , class: "purchase-btn-icon" %>
+  <% end %>
 </div>
