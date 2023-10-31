@@ -1,4 +1,10 @@
 <div class="player-touroku">
-<>
-<%= @play%>
+ <div class="player-nyuuryoku">
+  <div class="player-form">
+  <%= form_with(model: @player, local: true) do |form|%> 
+  <%= form.text_field :name, placeholder: "名前" %>
+  <%= form.submit "登録する" %>
+  <% end %>
+  </div>
+ </div>
 </div>
